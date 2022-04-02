@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <title>v2</title>
+    <meta content="width=device-width,initial-scale=1" name="viewport">
+    <meta content="telephone=no" name="format-detection">
+    <link href="style/style.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Rubik:400,500&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Rubik+Mono+One&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <nav class="nav">
+            <div class="nav__main">
+                <div class="hamburger-menu">
+                    <input id="menu__toggle" type="checkbox" />
+                    <label class="menu__btn" for="menu__toggle">
+                        <span></span>
+                    </label>
+                    <ul class="menu__box">
+                        <li><a class="menu__item" href="index.html">Главная</a></li>
+                        <li><a class="menu__item" href="#">Поддержка</a></li>
+                        <li><a class="menu__item" href="garant.html">Гарантии</a></li>
+                        <li><a class="menu__item" href="contacts.html">Контакты</a></li>
+                    </ul>
+                </div>
+                <div class="menu__nav__main">
+                    <ul class="menu__nav">
+                        <li><a class="menu__nav-item" href="index.html">Главная</a></li>
+                        <li><a class="menu__nav-item" href="#">Поддержка</a></li>
+                        <li><a class="menu__nav-item" href="garant.html">Гарантии</a></li>
+                        <li><a class="menu__nav-item" href="contacts.html">Контакты</a></li>
+                    </ul>
+                </div>
+            </div>
+            <a href="index.html"><img alt="" src="img/blob-shape.png" width=""></a>
+                <p class="nav__main__title">МАГАЗИН UP</p>
+        </nav>
+    </header>
+    <main>
+        <section class="garant">
+            <h2>Гарантии</h2>
+            <div class="garant__item">
+                <div class="garant__item-img">
+                    <img class="garant__item-img-main" src="img/garant/sticker.png" width="160" alt="">
+                </div>
+                <div class="garant__item-intro">
+                    <h2>Подарок за покупку</h2>
+                <p>Магазин принадлежит известному ютуберу с большой аудиторией.</p>
+                </div>
+            </div>
+            <div class="garant__item">
+                <div class="garant__item-img">
+                    <img class="garant__item-img-main" src="img/garant/youtube.png" width="160" alt="">
+                </div>
+               <div class="garant__item-intro">
+                <h2>Магазин блогера</h2>
+                <p>Выгодная программа лояльности для клиентов. Мы ценим своих покупателей, 
+                    поэтому каждый покупатель 
+                    получает хороший подарок после совершения покупки. 
+                    Узнать подробнее</p>
+               </div>
+            </div>
+            <div class="garant__item">
+                <div class="garant__item-img">
+                    <img class="garant__item-img-main" src="img/garant/sticker-2.png" width="160" alt="">
+                </div>
+                <div class="garant__item-intro">
+                    <h2>Техническая поддержка</h2>
+                <p>При возникновении любых затруднений наши клиенты могут обратиться в службу 
+                    сервисной поддержки. Время работы – с 9:00 до 24:00 по МСК.</p>
+                </div>
+            </div>
+            <div class="garant__item">
+                <div class="garant__item-img">
+                    <img class="garant__item-img-main" src="img/garant/garant-2.png" width="160" alt="">
+                </div>
+                <div class="garant__item-intro">
+                    <h2>Официальные ключи</h2>
+                <p>Мы предлагаем своим клиентам только действительные официальные ключи, 
+                    купленные непосредственно у издателей либо их дилеров: 1С, Акелла, 
+                    Electronic Arts, CCP Games и др.</p>
+                </div>
+            </div>
+            <div class="garant__item">
+                <div class="garant__item-img">
+                    <img class="garant__item-img-main" src="img/garant/garant-1.png" width="160" alt="">
+                </div>
+                <div class="garant__item-intro">
+                    <h2>Множество способов оплаты</h2>
+                <p>Вы можете выбрать тот вариант оплаты, который считаете 
+                    максимально удобным и надежным. Банковская карта, Qiwi, 
+                    перевод на Webmoney или Яндекс-Деньги – решайте сами!</p>
+                </div>
+            </div>
+            <div class="garant__item">
+                <div class="garant__item-img">
+                    <img class="garant__item-img-main" src="img/garant/garant-3.png" width="160" alt="">
+                </div>
+                <div class="garant__item-intro">
+                    <h2>Моментальная доставка</h2>
+                <p>После оплаты вы моментально получаете товар, забрать вы 
+                    сможете его в своем личном кабинете на сайте.</p>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <section class="counter">
+            <ul class="counter__items">
+                <li class="counter__item">
+                    <p class="counter__item-title">Сейчас</p>
+                    <p class="number">19</p>
+                    <p class="counter__item-title">Онлайн</p>
+                </li>
+                <li class="counter__item counter__purchases statistics__blue">
+                    <p class="counter__item-title">Всего</p>
+                    <p class="number" id="timer">2486</p>
+                    <p class="counter__item-title">пользователей</p>
+                </li>
+                <li class="counter__item counter__purchases">
+                    <p class="counter__item-title">Всего</p>
+                    <p class="number" id="timer">1867</p>
+                    <p class="counter__item-title">покупок</p>
+                </li>
+            </ul>
+        </section>
+        <section class="footer__main">
+            <div class="footer__main-wrapper">
+                <ul class="nav__footer">
+                    <li class="nav__footer-item">
+                        <a href="index.html">Главная</a>
+                    </li>
+                    <li class="nav__footer-item">
+                        <a href="#">Мы в ВК</a>
+                    </li>
+                    <li class="nav__footer-item">
+                        <a href="contacts.html">Контакты</a>
+                    </li>
+                    <li class="nav__footer-item">
+                        <a href="rules.html">Пользовательское соглашение</a>
+                    </li>
+                </ul>
+                <div class="footer__main-info">
+                    <div class="footer__main-info-bloger">
+                        <img src="" alt="">
+                        <div>
+                            <p>Магазин UP-Shop</p>
+                            <p>Тут Вы можете купить игры для Steam, Origin. В магазине <br>
+                                действуют постоянные скидки, конкурсы, специальные предложения.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="footer__main-info-payments">
+                        <p>Способы оплаты</p>
+                        <img src="img/payments.png" alt="">
+                    </div>
+                </div>
+
+            </div>
+        </section>
+    </footer>
+</body>
+
+</html>
